@@ -1,14 +1,16 @@
 <header>
   <section class="toolbar">
-    <mat-toolbar color="primary"></mat-toolbar>
+    <mat-toolbar color="accent"></mat-toolbar>
   </section>
   <section class="toolbar-btn" >
-    <mat-toolbar>
+    <mat-toolbar color="primary">
       <mat-icon aria-hidden="false" aria-label="Example menu icon" fontIcon="menu"></mat-icon>
-      <span>My Application</span>
+      <span>Pesquisar</span>
       <mat-icon aria-hidden="false" aria-label="Example search icon" fontIcon="search"></mat-icon>
     </mat-toolbar>
   </section>
 </header>
+<main>
+  <router-outlet></router-outlet>
+</main>
 
-<router-outlet></router-outlet>

@@ -1,0 +1,21 @@
+.card-dados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem img {
+    width: 180px;
+    height: 180px;
+    border-radius: 1rem;
+}
+
+.card-left .modelo{
+    margin: 0;
+    padding: 0;
+}
+
+.card-rigth .titulo{
+    margin: 0;
+    padding: 0;
+}
