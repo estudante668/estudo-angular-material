@@ -1,21 +1,34 @@
+.mat-mdc-card{
+    width: 170px;
+    max-width: 190px;
+    border-radius: 0.5rem;
+}
+
 .card-dados{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 190px;
 }
 
 .imagem img {
-    width: 180px;
-    height: 180px;
-    border-radius: 1rem;
+    width: 100%;
+    height: 160px;
+}
+
+.card-left {
+  margin-left: 0.5rem;
 }
 
 .card-left .modelo{
     margin: 0;
-    padding: 0;
+}
+
+.card-rigth{
+ margin-right: 0.5rem;
 }
 
 .card-rigth .titulo{
     margin: 0;
-    padding: 0;
 }
