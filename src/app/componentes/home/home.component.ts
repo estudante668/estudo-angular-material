@@ -2,12 +2,14 @@ import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { Dados } from '../dados';
+import { MatButtonModule } from '@angular/material/button';
+
 
 @Component(
   {
   selector: 'app-home',
   standalone: true,
-  imports: [CardComponent, NgFor],
+  imports: [CardComponent, NgFor, MatButtonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -43,6 +45,20 @@ export class HomeComponent {
     },
     {
       id: 4,
+      modelo: 'Inverno',
+      marca:'Dinati',
+      preco: '453.98',
+      foto: '/assets/image12.jpg'
+    },
+    {
+      id: 5,
+      modelo: 'Inverno',
+      marca:'Dinati',
+      preco: '453.98',
+      foto: '/assets/image12.jpg'
+    },
+    {
+      id: 6,
       modelo: 'Inverno',
       marca:'Dinati',
       preco: '453.98',
