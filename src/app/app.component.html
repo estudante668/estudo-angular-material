@@ -1,16 +1,13 @@
-<header>
-  <section class="toolbar">
-    <mat-toolbar color="accent"></mat-toolbar>
-  </section>
-  <section class="toolbar-btn" >
-    <mat-toolbar color="primary">
-      <mat-icon aria-hidden="false" aria-label="Example menu icon" fontIcon="menu"></mat-icon>
-      <span>Pesquisar</span>
-      <mat-icon aria-hidden="false" aria-label="Example search icon" fontIcon="search"></mat-icon>
-    </mat-toolbar>
-  </section>
-</header>
-<main>
-  <router-outlet></router-outlet>
-</main>
+<mat-toolbar>
+   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+     <mat-icon>menu</mat-icon>
+   </button>
+   <span>My App</span>
+   <a routerLink="/">Home</a>
+   <a routerLink="/cartao">Cartao</a>
+   <a routerLink="/detalhe">Detalhes</a>
+ </mat-toolbar>
+<router-outlet></router-outlet>
+
+  
 

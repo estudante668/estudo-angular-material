@@ -1,15 +1,12 @@
-import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
-import { CardComponent } from '../card/card.component';
 import { Dados } from '../dados';
 import { MatButtonModule } from '@angular/material/button';
-
 
 @Component(
   {
   selector: 'app-home',
   standalone: true,
-  imports: [CardComponent, NgFor, MatButtonModule],
+  imports: [ MatButtonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
