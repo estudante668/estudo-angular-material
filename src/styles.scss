@@ -2,7 +2,7 @@
 
 @include mat.core();
 
-$primeira-paleta: mat.define-palette(mat.$deep-purple-palette, 500);
+$primeira-paleta: mat.define-palette(mat.$indigo-palette, 500);
 $segunda-paleta: mat.define-palette(mat.$deep-purple-palette, 700);
 
 $my-theme: mat.define-light-theme((

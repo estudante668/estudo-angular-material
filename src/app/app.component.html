@@ -1,13 +1,34 @@
-<mat-toolbar>
-   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-     <mat-icon>menu</mat-icon>
-   </button>
-   <span>My App</span>
-   <a routerLink="/">Home</a>
-   <a routerLink="/cartao">Cartao</a>
-   <a routerLink="/detalhe">Detalhes</a>
- </mat-toolbar>
-<router-outlet></router-outlet>
+<mat-toolbar color="primary">
+<button mat-icon-button (click)="sidenav.toggle()" class="menuicon" aria-label="Example icon-button with menu icon">
+<mat-icon>menu</mat-icon>
+    </button>
+    <a mat-button routerLink="/" class="btn">Home</a>
+    <a mat-button routerLink="/cartao" class="btn">Cartao</a>
+    <a mat-button routerLink="/detalhe" class="btn">Detalhes</a>
+</mat-toolbar>
+<mat-sidenav-container class="example-container" >
+    <mat-sidenav #sidenav [fixedInViewport]="true" [fixedTopGap]="50" mode="side"> 
+        
+        <div class="side-nav-items">
+            <div>
+                <a mat-button routerLink="/" class="menu-side">Home</a>
+            </div>
+            <div>
+                <a mat-button routerLink="/cartao" class="menu-side">Cartao</a>
+            </div>
+            <div>
+                <a mat-button routerLink="/detalhe" class="menu-side">Detalhes</a>
+            </div>
+        </div>
+        
+    </mat-sidenav>
+    <mat-sidenav-content>
+            <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
 
   
 
