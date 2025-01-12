@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './componentes/home/home.component';
-import { CardComponent } from './componentes/card/card.component';
-import { DetalhesComponent } from './componentes/detalhes/detalhes.component';
+import { MasculinosComponent } from './modelos/masculinos/masculinos.component';
+import { FemininosComponent } from './modelos/femininos/femininos.component';
 
 export const routes: Routes = [
   {
@@ -10,13 +10,13 @@ export const routes: Routes = [
     title: 'Page Home'
   },
   {
-    path:'cartao',
-    component: CardComponent,
-    title: 'Cartao'
+    path:'masculino',
+    component: MasculinosComponent,
+    title: 'Roupas Masculinas'
   },
   {
-    path:'detalhe',
-    component: DetalhesComponent,
-    title: 'Detalhes'
+    path:'feminino',
+    component: FemininosComponent,
+    title: 'Roupas Femininas'
   },
 ];

@@ -7,28 +7,41 @@
 .card-dados{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    max-width: 190px;
+    max-width: 160px;
 }
 
-.imagem img {
+.card-dados .card-titulo-preco{
     width: 100%;
-    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.card-left {
-  margin-left: 0.5rem;
+.card-dados .imagem {
+    width: 100%;
+    height: 175px;
+    border-radius: 0.5rem;
 }
 
-.card-left .modelo{
+.card-titulo .titulo {
+   margin: 0;
+}
+
+.card-dados .parag-titulo{
     margin: 0;
 }
 
-.card-rigth{
- margin-right: 0.5rem;
+.card-preco .paragrafo {
+   margin: 0; 
 }
 
-.card-rigth .titulo{
+.card-titulo-preco .card-preco{
+    padding-top: 0.6rem;
+}
+
+.card-preco .preco{
     margin: 0;
 }

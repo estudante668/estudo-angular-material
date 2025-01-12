@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { Dados } from '../dados';
 import { MatButtonModule } from '@angular/material/button';
+import { CardComponent } from '../card/card.component';
 
 @Component(
   {
   selector: 'app-home',
   standalone: true,
-  imports: [ MatButtonModule],
+  imports: [ MatButtonModule, CardComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

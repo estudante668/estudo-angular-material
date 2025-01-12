@@ -3,10 +3,10 @@
 <mat-icon>menu</mat-icon>
     </button>
     <a mat-button routerLink="/" class="btn">Home</a>
-    <a mat-button routerLink="/cartao" class="btn">Cartao</a>
-    <a mat-button routerLink="/detalhe" class="btn">Detalhes</a>
+    <a mat-button routerLink="/masculino" class="btn">Masculino</a>
+    <a mat-button routerLink="/feminino" class="btn">Feminino</a>
 </mat-toolbar>
-<mat-sidenav-container class="example-container" >
+<mat-sidenav-container class="example-container">
     <mat-sidenav #sidenav [fixedInViewport]="true" [fixedTopGap]="50" mode="side"> 
         
         <div class="side-nav-items">
@@ -14,13 +14,12 @@
                 <a mat-button routerLink="/" class="menu-side">Home</a>
             </div>
             <div>
-                <a mat-button routerLink="/cartao" class="menu-side">Cartao</a>
+                <a mat-button routerLink="/cartao" class="menu-side">Masculino</a>
             </div>
             <div>
-                <a mat-button routerLink="/detalhe" class="menu-side">Detalhes</a>
+                <a mat-button routerLink="/detalhe" class="menu-side">Feminino</a>
             </div>
-        </div>
-        
+        </div>  
     </mat-sidenav>
     <mat-sidenav-content>
             <router-outlet></router-outlet>
