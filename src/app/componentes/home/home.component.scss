@@ -1,12 +1,13 @@
 .home{
     display: grid;
-    grid-template-columns: 165px 165px;
-    gap: 1rem;
+    grid-template-columns: 155px 155px;
+    gap: 0.5rem;
     justify-content: center;
     align-items: center; 
 }
 
 .ng-star-inserted{
+   width: 150px;
    display: flex;
    justify-content: center;
    align-items: center;
