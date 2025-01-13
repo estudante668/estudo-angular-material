@@ -20,6 +20,12 @@
     background-color: #3f51b5;
 }
 
+.mat-drawer-content{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media ( max-width: 900px) {
      

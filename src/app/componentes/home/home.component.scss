@@ -1,11 +1,15 @@
 .home{
     display: grid;
-    grid-template-columns: 170px 170px;
+    grid-template-columns: 165px 165px;
+    gap: 0.5rem;
     justify-content: center;
-    align-items: center;
-    gap: 0.7rem;
-    max-width: 400px;
-    margin: 1rem;
+    align-items: center; 
+}
+
+.ng-star-inserted{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .example-button-row{

@@ -1,20 +1,14 @@
-.mat-mdc-card{
-    width: 150px;
-    max-width: 190px;
-    border-radius: 0.5rem;
-}
 
 .card-dados{
-    width: 100%;
+    width: 130px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 160px;
 }
 
 .card-dados .card-titulo-preco{
-    width: 100%;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;

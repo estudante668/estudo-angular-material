@@ -1,13 +1,13 @@
 <section class="card-dados">
-    <img class="imagem" src="/assets/image14.jpg" alt="">
+    <img class="imagem" [src]="objeto.foto" alt="">
     <div class="card-titulo-preco">
         <div class="card-titulo">
-            <h2 class="titulo">Adidas</h2>
-            <p class="parag-titulo">Esporte</p>
+            <h2 class="titulo">{{objeto.marca}}</h2>
+            <p class="parag-titulo">{{objeto.modelo}}</p>
         </div>
         <div class="card-preco">
             <p class="paragrafo">from</p>
-            <p class="preco">$345.70</p>
+            <p class="preco">${{objeto.preco}}</p>
         </div>
     </div>
 </section>
