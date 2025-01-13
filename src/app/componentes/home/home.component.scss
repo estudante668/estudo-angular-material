@@ -1,7 +1,7 @@
 .home{
     display: grid;
     grid-template-columns: 165px 165px;
-    gap: 0.5rem;
+    gap: 1rem;
     justify-content: center;
     align-items: center; 
 }
@@ -10,6 +10,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: darkorchid;
 }
 
 .example-button-row{
