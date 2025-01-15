@@ -21,14 +21,13 @@
 }
 
 .mat-drawer-content{
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@media ( max-width: 900px) {
-     
+@media ( max-width: 900px) { 
     .btn{
         display: none;
     }
