@@ -2,22 +2,22 @@
 <button mat-icon-button (click)="sidenav.toggle()" class="menuicon" aria-label="Example icon-button with menu icon">
 <mat-icon>menu</mat-icon>
     </button>
-    <a mat-button routerLink="/" class="btn">Home</a>
-    <a mat-button routerLink="/masculino" class="btn">Masculino</a>
-    <a mat-button routerLink="/feminino" class="btn">Feminino</a>
+    <a mat-button routerLink="/" class="btn-menu">Home</a>
+    <a mat-button routerLink="/masculino" class="btn-menu">Masculino</a>
+    <a mat-button routerLink="/feminino" class="btn-menu">Feminino</a>
 </mat-toolbar>
 <mat-sidenav-container class="example-container">
     <mat-sidenav #sidenav [fixedInViewport]="true" [fixedTopGap]="50" mode="side"> 
         
         <div class="side-nav-items">
             <div>
-                <a mat-button routerLink="/" class="menu-side">Home</a>
+                <a mat-button routerLink="/" class="btn-side">Home</a>
             </div>
             <div>
-                <a mat-button routerLink="/cartao" class="menu-side">Masculino</a>
+                <a mat-button routerLink="/cartao" class="btn-side">Masculino</a>
             </div>
             <div>
-                <a mat-button routerLink="/detalhe" class="menu-side">Feminino</a>
+                <a mat-button routerLink="/detalhe" class="btn-side">Feminino</a>
             </div>
         </div>  
     </mat-sidenav>

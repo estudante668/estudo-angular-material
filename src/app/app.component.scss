@@ -20,6 +20,10 @@
     background-color: #3f51b5;
 }
 
+.btn-menu{
+    color: #ffffff;
+}
+
 .mat-drawer-content{
     height: 600px;
     display: flex;
@@ -27,8 +31,12 @@
     align-items: center;
 }
 
+.side-nav-items  .btn-side {
+    color: #ffffff;
+}
+
 @media ( max-width: 900px) { 
-    .btn{
+    .btn-menu{
         display: none;
     }
 }
